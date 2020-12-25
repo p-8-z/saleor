@@ -41,52 +41,52 @@ msgstr ""
 #: templates/invoices/invoice.html:218
 msgctxt "Invoice PDF header"
 msgid "INVOICE INFORMATION"
-msgstr ""
+msgstr "FAKTURAČNÉ INFORMÁCIE"
 
 #: templates/invoices/invoice.html:221
 msgctxt "Invoice PDF header: Invoice number"
 msgid "Invoice number:"
-msgstr ""
+msgstr "Číslo faktúry"
 
 #: templates/invoices/invoice.html:227
 msgctxt "Invoice PDF header: order number"
 msgid "Order:"
-msgstr ""
+msgstr "Objednávka:"
 
 #: templates/invoices/invoice.html:233
 msgctxt "Invoice PDF header"
 msgid "Date:"
-msgstr ""
+msgstr "Dátum:"
 
 #: templates/invoices/invoice.html:239
 msgctxt "Invoice PDF amount (price)"
 msgid "Amount:"
-msgstr ""
+msgstr "Množstvo:"
 
 #: templates/invoices/invoice.html:248
 msgctxt "Invoice PDF"
 msgid "BILLING ADDRESS"
-msgstr ""
+msgstr "FAKTURAČNÁ ADRESA"
 
 #: templates/invoices/invoice.html:277
 msgctxt "Invoice PDF"
 msgid "SHIPMENT ADDRESS"
-msgstr ""
+msgstr "DOPRAVNÁ ADRESA"
 
 #: templates/invoices/invoice.html:308
 msgctxt "Invoice PDF"
 msgid "PAYMENT METHOD"
-msgstr ""
+msgstr "SPÔSOB PLATBY"
 
 #: templates/invoices/invoice.html:316
 msgctxt "Invoice PDF"
 msgid "SHIPMENT METHOD"
-msgstr ""
+msgstr "SPÔSOB DOPRAVY"
 
 #: templates/invoices/invoice.html:326
 msgctxt "Invoice PDF table header"
 msgid "ITEMS ORDERED"
-msgstr ""
+msgstr "OBJEDNANÉ POLOŽKY"
 
 #: templates/invoices/invoice_products_table.html:7
 msgctxt "Invoice PDF table"
@@ -106,7 +106,7 @@ msgstr "Počet"
 #: templates/invoices/invoice_products_table.html:16
 msgctxt "Invoice PDF table"
 msgid "Total Price"
-msgstr ""
+msgstr "Celková cena"
 
 #: templates/invoices/invoice_summary_table.html:8
 msgctxt "Invoice PDF summary"
@@ -116,17 +116,17 @@ msgstr "Medzisúčet"
 #: templates/invoices/invoice_summary_table.html:21
 msgctxt "Invoice PDF summary"
 msgid "Delivery Cost"
-msgstr ""
+msgstr "Náklady na doručenie"
 
 #: templates/invoices/invoice_summary_table.html:34
 msgctxt "Invoice PDF summary"
 msgid "Tax"
-msgstr ""
+msgstr "Daň"
 
 #: templates/invoices/invoice_summary_table.html:47
 msgctxt "Invoice PDF summary"
 msgid "Grand Total"
-msgstr ""
+msgstr "Celkový Súčet"
 
 #: templates/templated_email/account/account_delete.email:4
 msgctxt "Account delete reset e-mail subject"
@@ -143,11 +143,16 @@ msgid ""
 "\n"
 "Please note that this action is permanent and cannot be reversed.\n"
 msgstr ""
+"\n"
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal o vymazanie vášho používateľského účtu na adrese %(site_name)s.\n"
+"Kliknutím na odkaz nižšie odstránite svoj účet.\n"
+"\n"
+"Upozorňujeme, že táto akcia je trvalá a nemožno ju vrátiť späť.\n"
 
 #: templates/templated_email/account/confirm.email:4
 msgctxt "Account confirmation e-mail subject"
 msgid "Account confirmation e-mail"
-msgstr ""
+msgstr "E-mail s potvrdením účtu"
 
 #: templates/templated_email/account/confirm.email:9
 #, python-format
@@ -157,12 +162,15 @@ msgid ""
 "In order to log into %(site_name)s, you have to confirm your email address first.\n"
 "Please click the link below to do so and log into your account.\n"
 msgstr ""
+"\n"
+"Pre prihlásenie do %(site_name)s musíte najskôr potvrdiť svoju e-mailovú adresu.\n"
+"Kliknite na odkaz uvedený nižšie a prihláste sa do svojho účtu.\n"
 
 #: templates/templated_email/account/email_changed_notification.email:4
 #: templates/templated_email/account/request_email_change.email:4
 msgctxt "Email change e-mail subject"
 msgid "Email change e-mail"
-msgstr ""
+msgstr "E-mail na zmenu e-mailu"
 
 #: templates/templated_email/account/email_changed_notification.email:9
 #, python-format
@@ -173,6 +181,10 @@ msgid ""
 "You're receiving this e-mail because you or someone else has changed email for your user account at %(site_name)s.\n"
 "If you didn't request this change, please contact the administrator.\n"
 msgstr ""
+"\n"
+"\n"
+"Tento e-mail ste dostali, pretože ste zmenili e-mail pre váš používateľský účet na adrese %(site_name)s.\n"
+"Ak ste o túto zmenu nepožiadali, kontaktujte správcu.\n"
 
 #: templates/templated_email/account/password_reset.email:4
 msgctxt "Password reset e-mail subject"
@@ -187,6 +199,9 @@ msgid ""
 "You're receiving this e-mail because you or someone else has requested a password for your user account at %(site_name)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal o heslo pre váš používateľský účet na adrese %(site_name)s.\n"
+"Ak ste nepožiadali o obnovenie hesla, môžete ho bezpečne ignorovať. Kliknutím na odkaz nižšie obnovíte svoje heslo.\n"
 
 #: templates/templated_email/account/request_email_change.email:9
 #, python-format
@@ -197,12 +212,16 @@ msgid ""
 "You're receiving this e-mail because you or someone else has requested an email change for your user account at %(site_name)s.\n"
 "It can be safely ignored if you did not request an email change. Click the link below to confirm new email address.\n"
 msgstr ""
+"\n"
+"\n"
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal o zmenu e-mailu pre váš používateľský účet na adrese %(site_name)s.\n"
+"Ak ste nepožiadali o zmenu e-mailu, môžete ho bezpečne ignorovať. Kliknutím na odkaz nižšie potvrdíte novú e-mailovú adresu.\n"
 
 #: templates/templated_email/csv/export_failed.email:4
 #: templates/templated_email/csv/export_products_file.email:4
 msgctxt "Export products e-mail subject"
 msgid "Export products data"
-msgstr ""
+msgstr "Exportovať údaje o výrobkoch"
 
 #: templates/templated_email/csv/export_failed.email:10
 msgctxt "Export products e-mail text"
@@ -210,18 +229,20 @@ msgid ""
 "Sorry, we cannot finish product export, some unexpected errors occurred. "
 "Please try again."
 msgstr ""
+"Je nám ľúto, nemôžeme dokončiť export produktu, vyskytli sa neočakávané chyby. "
+"Prosím skúste znova."
 
 #: templates/templated_email/csv/export_products_file.email:10
 #, python-format
 msgctxt "Export products e-mail text"
 msgid "Your file with products data is ready to download: %(csv_link)s"
-msgstr ""
+msgstr "Váš súbor s údajmi o výrobkoch je pripravený na stiahnutie: %(csv_link)s"
 
 #: templates/templated_email/dashboard/customer/set_password.email:2
 #, python-format
 msgctxt "Set password for customer e-mail title"
 msgid "Hello from %(site_name)s!"
-msgstr "Dobrý deň z %(site_name)s!"
+msgstr "Dobrý deň zo stránky %(site_name)s!"
 
 #: templates/templated_email/dashboard/customer/set_password.email:6
 #, python-format
@@ -231,12 +252,15 @@ msgid ""
 "You're receiving this e-mail because you have to set a password for your customer account at %(site_name)s.\n"
 "Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Tento e-mail ste dostali, pretože musíte nastaviť heslo pre svoj zákaznícky účet na adrese %(site_name)s.\n"
+"Kliknutím na odkaz nižšie obnovíte svoje heslo.\n"
 
 #: templates/templated_email/dashboard/staff/set_password.email:2
 #, python-format
 msgctxt "Set password for staff member e-mail title"
 msgid "Hello from %(site_name)s!"
-msgstr "Dobrý deň z %(site_name)s!"
+msgstr "Dobrý deň zo stránky %(site_name)s!"
 
 #: templates/templated_email/dashboard/staff/set_password.email:6
 #, python-format
@@ -246,12 +270,15 @@ msgid ""
 "You're receiving this e-mail because you have to set a password for your staff member account at %(site_name)s.\n"
 "Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Tento e-mail ste dostali, pretože musíte nastaviť heslo pre svoj účet zamestnanca na adrese %(site_name)s.\n"
+"Kliknutím na odkaz nižšie obnovíte svoje heslo.\n"
 
 #: templates/templated_email/order/confirm_fulfillment.email:4
 #, python-format
 msgctxt "Fulfillment confirmation email subject"
 msgid "Your order %(order)s has been fulfilled"
-msgstr ""
+msgstr "Vaša objednávka %(order)s bola splnená"
 
 #: templates/templated_email/order/confirm_fulfillment.email:11
 msgctxt "Fulfillment confirmation email text"
@@ -259,6 +286,8 @@ msgid ""
 "\n"
 "Thank you for your order. Below is the list of fulfilled products.\n"
 msgstr ""
+"\n"
+"Ďakujeme za objednávku. Nižšie je uvedený zoznam výrobkov.\n"
 
 #: templates/templated_email/order/confirm_fulfillment.email:15
 #: templates/templated_email/source/confirm_fulfillment.mjml:25
@@ -273,7 +302,7 @@ msgstr "Zásielku môžte sledovať s kódom %(tracking_number)s."
 #, python-format
 msgctxt "Order confirmation e-mail subject"
 msgid "Order %(order)s details"
-msgstr ""
+msgstr "Detaily objednávky %(order)s"
 
 #: templates/templated_email/order/confirm_order.email:13
 msgctxt "Order confirmation e-mail text"
@@ -281,6 +310,8 @@ msgid ""
 "\n"
 "Thank you for your order. Below is the list of ordered products.\n"
 msgstr ""
+"\n"
+"Ďakujeme za objednávku. Nižšie je uvedený zoznam objednaných produktov.\n"
 
 #: templates/templated_email/order/confirm_order.email:17
 #: templates/templated_email/order/staff_confirm_order.email:17
@@ -291,6 +322,9 @@ msgid ""
 "To see your payment details please visit:\n"
 "%(order_details_url)s\n"
 msgstr ""
+"\n"
+"Platobné podrobnosti nájdete na stránke:\n"
+"%(order_details_url)s\n"
 
 #: templates/templated_email/order/confirm_order.email:25
 #: templates/templated_email/order/staff_confirm_order.email:25
@@ -370,7 +404,7 @@ msgstr "Doprava nie je nutná"
 #, python-format
 msgctxt "Order cancel e-mail subject"
 msgid "Order %(order)s canceled"
-msgstr ""
+msgstr "Objednávka %(order)s bola zrušená"
 
 #: templates/templated_email/order/order_cancel.email:11
 msgctxt "Order cancel e-mail text"
@@ -378,12 +412,14 @@ msgid ""
 "\n"
 "Your order has been canceled.\n"
 msgstr ""
+"\n"
+"Vaša objednávka bola zrušená.\n"
 
 #: templates/templated_email/order/order_refund.email:4
 #, python-format
 msgctxt "Order refund e-mail subject"
 msgid "Order %(order)s refunded"
-msgstr ""
+msgstr "Objednávka %(order)s bola vrátená"
 
 #: templates/templated_email/order/order_refund.email:11
 #, python-format
@@ -392,12 +428,14 @@ msgid ""
 "\n"
 "A payment of %(amount)s %(currency)s has been refunded for your order.\n"
 msgstr ""
+"\n"
+"Platba vo výške %(amount)s %(currency)s za objednávku vám bola vrátená.\n"
 
 #: templates/templated_email/order/payment/confirm_payment.email:4
 #, python-format
 msgctxt "Payment confirmation subject"
 msgid "Order %(order)s payment details"
-msgstr ""
+msgstr "Podrobnosti platby za objednávku %(order)s"
 
 #: templates/templated_email/order/payment/confirm_payment.email:11
 msgctxt "Payment confirmation email text"
@@ -406,6 +444,9 @@ msgid ""
 "Thank you for your payment.\n"
 "Your payment was successfully processed.\n"
 msgstr ""
+"\n"
+"Ďakujeme za Vašu platbu.\n"
+"Vaša platba bola úspešne spracovaná.\n"
 
 #: templates/templated_email/order/send_invoice.email:4
 msgctxt "Invoice email subject"
@@ -419,6 +460,8 @@ msgid ""
 "\n"
 "In order to download invoice %(number)s, click the link below.\n"
 msgstr ""
+"\n"
+"Ak si chcete stiahnuť faktúru %(number)s, kliknite na odkaz nižšie.\n"
 
 #: templates/templated_email/order/staff_confirm_order.email:13
 msgctxt "Order confirmation staff e-mail text"
@@ -426,6 +469,8 @@ msgid ""
 "\n"
 "Below is the list of ordered products.\n"
 msgstr ""
+"\n"
+"Nižšie je uvedený zoznam objednaných produktov.\n"
 
 #: templates/templated_email/order/update_fulfillment.email:4
 #, python-format
@@ -439,6 +484,8 @@ msgid ""
 "\n"
 "Your shipping status has been updated. Below is the list of ordered products that have been updated with new tracking number.\n"
 msgstr ""
+"\n"
+"Váš stav prepravy bol aktualizovaný. Nižšie je uvedený zoznam objednaných produktov, ktoré boli aktualizované o nové sledovacie číslo.\n"
 
 #: templates/templated_email/order/update_fulfillment.email:15
 #, python-format
@@ -446,12 +493,13 @@ msgctxt "Fulfillment update email text"
 msgid ""
 "You can track your shipment with the following code: %(tracking_number)s."
 msgstr ""
+"Svoju zásielku môžete sledovať pomocou nasledujúceho kódu: %(tracking_number)s."
 
 #: templates/templated_email/shared/_footer.email:2
 #: templates/templated_email/source/shared/footer.mjml:4
 msgctxt "Base email text"
 msgid "This is an automatically generated e-mail, please do not reply."
-msgstr ""
+msgstr "Toto je automaticky generovaný e-mail, prosím neodpovedajte."
 
 #: templates/templated_email/shared/_footer.email:5
 #: templates/templated_email/source/shared/footer.mjml:13
@@ -491,6 +539,10 @@ msgid ""
 " delete your account. Please note that this action is permanent and cannot "
 "be reversed."
 msgstr ""
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal o "
+"vymazanie vášho užívateľského účtu na stránke %(site_name)s.<br/> Kliknite na odkaz nižšie na"
+" odstránenie svojho účtu. Upozorňujeme, že táto akcia je trvalá a nemožno "
+"ju vrátiť späť."
 
 #: templates/templated_email/source/confirm.mjml:16
 #, python-format
@@ -499,11 +551,13 @@ msgid ""
 "In order to log into %(site_name)s, you have to confirm your email address "
 "first. Please click the link below to do so and log into your account."
 msgstr ""
+"S cieľom prihlásiť sa na stránku %(site_name)s, musíte potvrdiť svoju emailovú "
+"adresu. Kliknite na odkaz uvedený nižšie a prihláste sa do svojho účtu."
 
 #: templates/templated_email/source/confirm_fulfillment.mjml:16
 msgctxt "Fulfillment confirmation email text"
 msgid "Thank you for your order. Below is the list of fulfilled products."
-msgstr ""
+msgstr "Ďakujeme za objednávku. Nižšie je uvedený zoznam splnených výrobkov."
 
 #: templates/templated_email/source/confirm_fulfillment.mjml:21
 #: templates/templated_email/source/update_fulfillment.mjml:21
@@ -513,12 +567,15 @@ msgid ""
 "You can track your shipment with <a "
 "href=\"%(tracking_number)s\">%(tracking_number)s</a> link."
 msgstr ""
+"Svoju zásielku môžete sledovať pomocou linky <a "
+"href=\"%(tracking_number)s\">%(tracking_number)s</a>."
 
 #: templates/templated_email/source/confirm_fulfillment.mjml:33
 msgctxt "Fulfillment digital products email text"
 msgid ""
 "You can download your digital products by clicking in download link(s)."
 msgstr ""
+"Digitálne produkty si môžete stiahnuť kliknutím na odkaz na stiahnutie."
 
 #: templates/templated_email/source/confirm_order.mjml:18
 #, python-format
@@ -535,12 +592,12 @@ msgstr ""
 #: templates/templated_email/source/confirm_order.mjml:22
 msgctxt "Order confirmation e-mail text"
 msgid "Thank you for your order. Below is the list of ordered products."
-msgstr ""
+msgstr "Ďakujeme za objednávku. Nižšie je uvedený zoznam objednaných produktov."
 
 #: templates/templated_email/source/confirm_payment.mjml:16
 msgctxt "Payment confirmation e-mail text"
 msgid "Thank you for your payment. Your payment was successfully processed."
-msgstr ""
+msgstr "Ďakujeme za Vašu platbu. Vaša platba bola úspešne spracovaná."
 
 #: templates/templated_email/source/email_changed_notification.mjml:16
 #, python-format
@@ -550,6 +607,9 @@ msgid ""
 "for your user account at %(site_name)s.<br /> If you didn't request this "
 "change, please contact the administrator."
 msgstr ""
+"Tento e-mail ste dostali, pretože ste zmenili e-mail vy alebo niekto iný "
+"pre váš používateľský účet na stránke %(site_name)s.<br /> Ak ste o túto zmenu "
+"nepožiadali, kontaktujte správcu."
 
 #: templates/templated_email/source/export_failed.mjml:16
 msgctxt "Export products e-mail text"
@@ -557,6 +617,8 @@ msgid ""
 "Sorry, we couldn't finish exporting products, some unexpected errors "
 "occurred. Please try again."
 msgstr ""
+"e nám ľúto, export produktov sa nepodarilo dokončiť. Vyskytli sa neočakávané "
+"chyby. Prosím skúste znova."
 
 #: templates/templated_email/source/export_products_file.mjml:16
 #, python-format
@@ -565,6 +627,8 @@ msgid ""
 "Your file with products data is ready to download: <a "
 "href=\"%(csv_link)s\">%(csv_link)s</a>"
 msgstr ""
+"Váš súbor s údajmi o výrobkoch je pripravený na stiahnutie: <a "
+"href=\"%(csv_link)s\">%(csv_link)s</a>"
 
 #: templates/templated_email/source/order_cancel.mjml:16
 msgctxt "Order cancel e-mail text"
@@ -575,7 +639,7 @@ msgstr ""
 #, python-format
 msgctxt "Order refund e-mail text"
 msgid "A payment of %(amount)s %(currency)s has been refunded for your order."
-msgstr ""
+msgstr "Za vašu objednávku bola vrátená platba %(amount)s %(currency)s."
 
 #: templates/templated_email/source/partials/_fulfillment_lines.mjml:11
 #: templates/templated_email/source/partials/_fulfillment_lines.mjml:29
@@ -593,7 +657,7 @@ msgstr "Počet"
 #: templates/templated_email/source/partials/_fulfillment_lines.mjml:30
 msgctxt "Ordered item download links"
 msgid "Download Link"
-msgstr ""
+msgstr "Odkaz na stiahnutie"
 
 #: templates/templated_email/source/partials/_order_lines.mjml:12
 msgctxt "E-mail order lines summary table"
@@ -644,6 +708,10 @@ msgid ""
 "ignored if you did not request a password reset. Click the link below to "
 "reset your password."
 msgstr ""
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal "
+"o heslo pre váš používateľský účet na adrese %(site_name)s.<br/> Ak ste nepožiadali "
+"ignored if you did not request a password reset. Kliknutím na odkaz nižšie "
+"obnovíte svoje heslo."
 
 #: templates/templated_email/source/request_email_change.mjml:16
 #, python-format
@@ -654,12 +722,16 @@ msgid ""
 "ignored if you did not request an email change. Click the link below to "
 "confirm new email address."
 msgstr ""
+"Tento e-mail ste dostali, pretože ste vy alebo niekto iný požiadal o "
+"zmenu e-mailu pre váš používateľský účet na adrese %(site_name)s.<br /> Ak ste nepožiadali "
+"o zmenu e-mailu, môžete ho bezpečne ignorovať. Kliknutím na odkaz nižšie "
+"potvrdíte novú e-mailovú adresu."
 
 #: templates/templated_email/source/send_invoice.mjml:16
 #, python-format
 msgctxt "Send invoice e-mail text"
 msgid "In order to download invoice %(number)s, click the link below."
-msgstr ""
+msgstr "Pre stiahnutie faktúry %(number)s, kliknite na odkaz dole."
 
 #: templates/templated_email/source/set_customer_password.mjml:16
 #, python-format
@@ -669,6 +741,9 @@ msgid ""
 "customer account at %(site_name)s.<br/> Click the link below to set up your "
 "password."
 msgstr ""
+"Tento e-mail ste dostali, pretože musíte nastaviť heslo pre svoj "
+"zákaznícky účet na adrese %(site_name)s.<br/> Kliknutím na odkaz nižšie "
+"nastavíte svoje heslo."
 
 #: templates/templated_email/source/set_password.mjml:16
 #, python-format
@@ -678,6 +753,9 @@ msgid ""
 " member account at %(site_name)s.<br/> Click the link below to set up your "
 "password."
 msgstr ""
+"Tento e-mail ste dostali, pretože musíte nastaviť heslo pre svoj účet zamestnanca"
+" na adrese %(site_name)s.<br/> liknutím na odkaz nižšie "
+"nastavíte svoje heslo."
 
 #: templates/templated_email/source/staff_confirm_order.mjml:17
 #, python-format
@@ -686,6 +764,8 @@ msgid ""
 "Someone placed a new order in your store. To see order details please visit:"
 " <a href=\"%(order_details_url)s\">%(order_details_url)s</a>"
 msgstr ""
+"Niekto vo vašom obchode zadal novú objednávku. Ak chcete zobraziť podrobnosti objednávky,"
+" navštívte stránku:<a href=\"%(order_details_url)s\">%(order_details_url)s</a>"
 
 #: templates/templated_email/source/update_fulfillment.mjml:16
 msgctxt "Fulfillment update email text"
